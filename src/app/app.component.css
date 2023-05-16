@@ -2,7 +2,7 @@
 
 .main {
   overflow: hidden;
-  background-image: url("/assets/images/main_bg.png");
+  background-image: url("../assets/images/main_bg.png");
   background-position: top center;
   background-repeat: none;
 }
@@ -96,7 +96,7 @@
 }
 
 .why {
-  background-image: url("/assets/images/whybg.png");
+  background-image: url("../assets/images/whybg.png");
   background-position: top center;
   background-size: initial;
   padding-bottom: 180px;
