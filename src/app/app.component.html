@@ -117,7 +117,7 @@
             <div class="products-item-weight">{{ product.grams }} gr</div>
           </div>
           <div class="product-item-action">
-            <button class="button product-button" (click)="scrollTo(order)">
+            <button class="button product-button" (click)="scrollTo(order,product)" >
               <span>Заказать</span>
               <span
                 ><svg
@@ -164,9 +164,10 @@
         >
           <input
             type="text"
-            placeholder="Ваш заказ"
+            placeholder="Выберите товар в списке"
             id="burger"
             formControlName="order"
+            readonly
           />
         </div>
         <div
