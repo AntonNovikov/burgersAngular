@@ -44,7 +44,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/burgers/"
+              "baseHref": "/burgersAngular/"
             },
             "development": {
               "buildOptimizer": false,
